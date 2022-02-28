@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roce paper scissors</title>
+    <!-- own css style are here -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="main-section container">
+      <h4 class="result">Result: <span id="winner-span"></span></h4>
+      <div class="playing-board">
+        <div class="score">
+          <p>
+            <label for="rpsShowMan-input">Your Score</label>
+          </p>
+          <input id="rpsShowMan-input" type="text" disabled />
+        </div>
+        <div class="score">
+          <p>
+            <label for="rpsShowBot-input">Bot Score</label>
+          </p>
+          <input id="rpsShowBot-input" type="text" disabled />
+        </div>
+      </div>
+      <div>
+        <button id="rpsGameBtn" class="play-btn">Play</button>
+      </div>
+    </section>
+    <!-- own javascript -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
